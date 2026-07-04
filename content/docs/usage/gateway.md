@@ -740,6 +740,9 @@ spec:
     - name: http
       protocol: HTTP
       port: 80
+      allowedRoutes:
+        namespaces:
+          from: All
   allowedListeners:
     namespaces:
       from: All
